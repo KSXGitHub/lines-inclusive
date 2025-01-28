@@ -1,0 +1,32 @@
+[package]
+name = "lines-inclusive"
+description = "Split a string into multiple lines, every line may end with `\n`"
+version = "0.0.0"
+authors = ["khai96_ <hvksmr1996@gmail.com>"]
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/lines-inclusive"
+repository = "https://github.com/KSXGitHub/lines-inclusive.git"
+keywords = [
+  "lines",
+  "inclusive",
+  "split_inclusive",
+  "str",
+]
+categories = [
+  "no-std",
+  "parsing",
+  "text-processing",
+]
+include = [
+  "/lib.rs",
+  "/specs.md",
+  "/Cargo.toml",
+  "/README.md",
+  "/LICENSE.md",
+]
+
+[lib]
+name = "lines_inclusive"
+path = "lib.rs"
